@@ -127,8 +127,9 @@
 /*Remmber !! this how you can edit aria-labelledby or somes tag inside bootstrap that don't showed up in your jsx*/
 [aria-labelledby="navDropdown"] {
 	padding: 0 0 0 0!important;
-	margin: 0 !important;
-	border-bottom: 10px solid #e2a500 !important;
+	margin: 0 0 0 -2px !important;
+	border-bottom: 4px solid #e2a500 !important;
+	border-radius: 0 !important;
 }
 @media(max-width:979px){
 	.navBar{
@@ -143,6 +144,11 @@
 	}
 	.navBar .toggleButton{
 		display: block;
+	}
+	[aria-labelledby="navDropdown"] {
+		margin: 0 0 0 15px!important;
+		border-bottom: none!important;
+		border-radius: 0 !important;
 	}
 	
 }

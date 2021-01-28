@@ -9,18 +9,63 @@ import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import './NavBar.css';
-import { MenuItems } from './MenuItems';
+import { AcademicLinks } from './MenuItems/AcademicLinks';
+import { PanduanMahasiswa } from './MenuItems/PanduanMahasiswaLists';
+import { DukunganKuliah } from './MenuItems/DukunganKuliah';
+import { BantuanSCeLe } from './MenuItems/BantuanSCeLe';
+
+
+const firstMenu = AcademicLinks.map((item, index) => {
+	return(
+		<NavDropdown.Item as='li' key={index} className="dropdownItem item">
+		<Link>
+			{item.title}
+		</Link>
+		</NavDropdown.Item>
+	);
+})
+
+const secondMenu = PanduanMahasiswa.map((item, index) => {
+	return(
+		<NavDropdown.Item as='li' key={index} className="dropdownItem item">
+		<Link>
+			{item.title}
+		</Link>
+		</NavDropdown.Item>
+	);
+})
+
+const thirdMenu = DukunganKuliah.map((item, index) => {
+	return(
+		<NavDropdown.Item as='li' key={index} className="dropdownItem item">
+		<Link>
+			{item.title}
+		</Link>
+		</NavDropdown.Item>
+	);
+})
+
+const fourthMenu = BantuanSCeLe.map((item, index) => {
+	return(
+		<NavDropdown.Item as='li' key={index} className="dropdownItem item">
+		<Link>
+			{item.title}
+		</Link>
+		</NavDropdown.Item>
+	);
+})
 
 function NavigationBar (){
 	const [show, setShow] = useState(false);
-	const showDropdown = (props)=>{
-		setShow(!show);
+
+	const showDropdown = (id)=>{
+		setShow(true);
 	}
-	const hideDropdown = props => {
+	const hideDropdown = (id) => {
 		setShow(false);
 	}
 	
-	return (
+return (
 
 <header className="navBarContainer">
 	<Navbar className="navBar" expand="lg">
@@ -35,15 +80,34 @@ function NavigationBar (){
 				onMouseEnter={showDropdown} 
 				onMouseLeave={hideDropdown}
 			>
-			{MenuItems.map((item, index) => {
-				return(
-					<NavDropdown.Item as='li' key={index} className="dropdownItem item">
-					<Link>
-						{item.title}
-					</Link>
-					</NavDropdown.Item>
-				);
-			})}
+			{firstMenu}
+			</NavDropdown>
+			<NavDropdown 
+				title="Panduan Mahasiswa" 
+				id="navDropdown" 
+				show={show}
+				onMouseEnter={showDropdown} 
+				onMouseLeave={hideDropdown}
+			>
+			{secondMenu}
+			</NavDropdown>
+			<NavDropdown 
+				title="Dukungan Kuliah" 
+				id="navDropdown" 
+				show={show}
+				onMouseEnter={showDropdown} 
+				onMouseLeave={hideDropdown}
+			>
+			{thirdMenu}
+			</NavDropdown>
+			<NavDropdown 
+				title="Bantuan SCeLe" 
+				id="navDropdown" 
+				show={show}
+				onMouseEnter={showDropdown} 
+				onMouseLeave={hideDropdown}
+			>
+			{fourthMenu}
 			</NavDropdown>
 		</Nav>
 		<Form inline>
@@ -55,8 +119,6 @@ function NavigationBar (){
 </header>
 		
 	);
-	
-
 
 }
 
