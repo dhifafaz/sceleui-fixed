@@ -1,0 +1,87 @@
+.pageHeader {
+    max-width: 100%;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+#pageHeader>.containers>.rows{
+    display: flex;
+}
+
+#pageHeader .rows{
+    background: #333;
+}
+
+.containers {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.containers:after {
+    clear: both;
+}
+
+.containers:before, .containers:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.clearfixs:before, .clearfixs:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+
+.rows:before, .rows:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.rows:after {
+    clear: both;
+}
+
+.clearfixs:after {
+    clear: both;
+}
+
+@media (min-width: 1200px) {
+    .rows {
+        width: 100%;
+    }
+    .rows:before, .rows:after {
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+    .rows:after {
+        clear: both;
+    }
+}
+@media (min-width:768px) and (max-width:979px){
+    .rows {
+        width: 100%;
+    }
+    .rows:before, .rows:after {
+        display: table;
+        content: "";
+        line-height: 0;
+    }
+    .rows:after {
+        clear: both;
+    }
+}
+
+@media (max-width: 767px){
+    #pageHeader>.containers>.rows{
+        display: block;
+    }
+    .rows{
+        width: 100%;
+    }
+}

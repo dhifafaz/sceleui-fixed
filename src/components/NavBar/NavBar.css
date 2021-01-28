@@ -1,0 +1,109 @@
+.navBarContainer{
+	background: none repeat scroll 0 0 #323A45!important;
+	padding: 0;
+	width: 100%;
+}
+
+.navBarContainer{
+	margin-bottom: 0;
+}
+
+.navbar {
+	margin: 0 auto!important;
+	max-width: 90%;
+	padding: 0!important;
+}
+
+.navBar{
+	background-color: #323A45!important;
+	border: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 0;
+  filter: none!important;
+  background-image: none!important;
+}
+
+.navBar {
+	min-height: 40px;
+	box-shadow: 0 1px 4px rgb(0 0 0 / 7%);
+}
+
+.home{
+	margin: 0!important;
+	color: #fff;
+	text-shadow: none;
+	line-height: 30px;
+	font-size: 1em;
+	background: #e2a500;
+	font-family: 'Ubuntu';
+	float: left;
+  display: block;
+	padding: 10px 20px 10px!important;
+	font-weight: 200;
+	height: 50px;
+}
+
+.toggleButton{
+	background-color: #e2a500!important;
+	background-image: none;
+	background-repeat: repeat-x;
+	border-color: #e2a500!important;
+	box-shadow: none;
+	color: #fff!important;
+	float: right!important;
+	margin-left: 5px!important;
+	margin-right: -10px!important;
+	margin-top: 7px!important;
+	padding: 5px!important;
+	text-shadow: none;
+}
+.navBarInner a{
+	font-family: 'Ubuntu';
+	font-weight: 400!important;
+	font-size: 13px!important;
+	color:rgb(255, 255, 255)!important;
+}
+
+.navBarInner:hover{
+	font-family: 'Ubuntu';
+	font-weight: 400!important;
+	font-size: 13px!important;
+	color: white!important;
+	outline: none;
+}
+
+.items a{
+	color: black!important;
+}
+
+.item:active{
+	background-color:yellow!important;
+	color: black!important;
+}
+
+.item:hover{
+	background-color:yellow!important;
+	color: black!important;
+}
+
+@media(max-width:979px){
+	.navBar{
+		padding:0;
+	}
+	.navBar .home{
+		padding:0;
+	}
+	.navBar .toggleButton{
+		margin-right: 10px;
+	}
+	.navBar .toggleButton{
+		display: block;
+	}
+}
+
+@media (max-width:767px) {
+	.navBar {
+		padding: 0;
+	}
+}
