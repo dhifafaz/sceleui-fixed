@@ -131,6 +131,74 @@
 	border-bottom: 4px solid #e2a500 !important;
 	border-radius: 0 !important;
 }
+
+.search-bar {
+	background: #696969 !important;
+	border: none !important;
+	box-shadow: none;
+	color: #fff !important;
+	margin: 0 !important;
+	padding: 10px !important;
+	height: 50px!important;
+	border-radius: 0 !important;box-sizing: border-box;
+	float: left;
+	font-size: 12px;
+	font-style: italic;
+}
+.search-bar input:focus{
+	outline: none!important;
+	color: white!important;
+}
+.form-bar{
+	margin-right: -20px;
+	overflow: hidden;
+	position: relative;
+	float: right;
+	padding: 0;
+}
+.navbar .nav-divider-left {
+	float: left!important;
+	height: 50px!important;
+	border-right: 1px solid rgba(250,250,250,.1)!important;
+	border-left: 1px solid rgba(0,0,0,.2)!important;
+	margin: 0!important;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white !important;
+  opacity: 1; /* Firefox */
+}
+.form-control:focus{
+	border-color: #cccccc!important;
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important;
+	transition: border linear .2s,box-shadow linear .2s !important;
+}
+.btn{
+	background-color: #e2a500 !important ;
+	border: none!important;
+	width:50px !important;
+	height: 50px!important;
+	color: white!important;
+	padding: 0 !important;
+
+}
+.btn-outline-success:focus{
+	outline: none !important;
+	border: none !important;
+	border-color: #cccccc!important;
+	-webkit-box-shadow: none!important;
+	box-shadow: none!important;
+	align-items: center !important;
+
+}
+div {
+	display: block;
+}
+i {
+	padding: 0px;
+	align-items: center;
+	font-size: 15px;
+}
 @media(max-width:979px){
 	.navBar{
 		padding:0;
