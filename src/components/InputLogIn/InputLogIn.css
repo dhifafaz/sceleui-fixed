@@ -31,7 +31,7 @@ div{
 
 #loginSection label#user, #loginSection label#pass{
     position: absolute;
-    color: #666;
+    color: #666 !important;
     background: #eee;
     width: 36px;
     border-radius: 25px 0 0 25px;
@@ -71,14 +71,20 @@ label{
     border: 1px solid #e9e9e9;
     border-radius: 25px;
     box-shadow: none;
-    color: #646464;
+    color: #646464 !important;
     display: inline-block;
     height: 36px;
     margin-right: 5px;
     padding: 0 5px 0 40px;
     width: 160px;
     font-family: "Ubuntu";
+    font-size: 15px;
     float: none;
+}
+
+#loginSection .placeholder {
+    color: #646464 !important;
+    font-size: 15px;
 }
 
 input:focus{

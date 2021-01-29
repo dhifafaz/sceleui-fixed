@@ -5,6 +5,7 @@ import Aux from '../../hoc/Aux';
 import './Layout.css'
 import PageHeader from '../PageHeader/PageHeader';
 import NavigationBar from '../NavBar/NavBar'
+import BodyOfPage from '../Body/Body';
 
 function Layout() {
     return (
@@ -12,11 +13,9 @@ function Layout() {
             <PageHeader/>
                 <NavigationBar/>
                 <main className='Content'>
-                    <div>
-                        <h2>Body</h2>
-                    </div>
-                    <footer>
-                        <h2>End of page</h2>
+                    <BodyOfPage/>
+                    <footer className='Content'>
+                        <h1>kaki</h1>
                     </footer>
                 </main>
         </Aux>

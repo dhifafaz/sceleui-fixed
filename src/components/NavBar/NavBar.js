@@ -115,10 +115,10 @@ return (
 					))}
 				</Nav>
 				<Form as='div' className="form-bar" inline>
-				<div class="nav-divider-left"></div>
-					<FormControl type="text" placeholder="Search" className="search-bar" />
+				<div className="nav-divider-left"></div>
+					<FormControl type="text" placeholder="Search Courses" className="search-bar" />
 					<Button variant="outline-success">
-					<i class="fa fa-search" aria-hidden="true"></i>
+					<i className="fa fa-search" aria-hidden="true"></i>
 					</Button>
 				</Form>
 			</Navbar.Collapse>

@@ -8,7 +8,7 @@ const inputLogin = (props) => (
             <label id="user">
                 <i className="fa fa-user"></i>
             </label>
-            <input id= "inputName"name= "username" placeholder="Username" type="text"  autoComplete="username"></input>
+            <input id= "inputName" name= "username" placeholder="Username" type="text"  autoComplete="username"></input>
             <label id="pass">
                 <i className="fa fa-key"></i>
             </label>
