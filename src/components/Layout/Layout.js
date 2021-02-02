@@ -12,12 +12,15 @@ function Layout() {
         <Aux >
             <PageHeader/>
                 <NavigationBar/>
-                <main className='Content'>
-                    <BodyOfPage/>
-                    <footer className='Content'>
+                <div style={{paddingTop: "10px"}}>
+                <BodyOfPage/>
+                <footer className='Content'>
                         <h1>kaki</h1>
                     </footer>
-                </main>
+                </div>
+                    
+                   
+
         </Aux>
     );
 }

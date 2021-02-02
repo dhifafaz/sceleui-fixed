@@ -6,13 +6,207 @@
 
 #site-news-forum {
     background-size: 20px 3px;
-    padding-top: 20px;
+    padding-top: 20px !important;
+    border-top: 5px solid rgba(231, 222, 222, 0.877);
+}
+
+.left-picture{
+  width: 58px;
+  float: left;
+  overflow: hidden;
+}
+
+.subject {
+  font-family: "Ubuntu";
+  font-weight: 700;
+  color: #555;
+  font-size: 15px !important;
+}
+
+.topic {
+  margin-left: 48px !important;
+}
+
+img.user-picture{
+  border-radius: 50%;
+  height: auto;
+  width: 45px;
+}
+
+img.user-picture {
+  margin-left: 3px;
+  margin-right: 10px;
 }
 
 h2 {
-    margin-bottom: 9px;
+    margin: none !important;
     font-family: 'Ubuntu';
-    font-size: 28px;
-    font-weight: normal !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
     color: #555;
+    padding: 10px 0 9px !important;
 }
+
+.option {
+  margin-left: 48px;
+}
+
+.command{
+  text-align: right;
+  font-family: "Ubuntu";
+  font-size: 15px !important;
+}
+
+.link {
+  text-align: right;
+  font-family: "Ubuntu";
+  font-size: 15px !important;
+}
+
+.icon {
+  color: #e2a500;
+  display: block !important;
+  float: left !important;
+  width: 1.5em !important;
+  margin: 0 auto !important;
+  margin-top: 3px !important;
+}
+
+.author {
+  align-items: center !important;
+  font-size: 15px;
+  font-family: 'Ubuntu';
+  color: #555;
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  font-family: 'Ubuntu';
+  line-height: 2;
+}
+ 
+a{
+  color: #966b00 !important;
+  text-decoration: none !important;
+}
+
+@media (min-width: 980px) {
+  a[id]:empty::before, a[name]:empty::before {
+    display: inline-block;
+    position: relative;
+    content: '';
+    padding-top: 40px;
+    margin-top: -40px;
+    vertical-align: top;
+  }
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    box-shadow: none;
+    margin-bottom: 20px !important;
+    padding: 6px 6px 6px 6px !important;
+  }
+  
+  .card > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .card > .list-group {
+    border-top: inherit;
+    border-bottom: inherit;
+  }
+  
+  .card > .list-group:first-child {
+    border-top-width: 0;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  .card > .list-group:last-child {
+    border-bottom-width: 0;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  
+  .card > .card-header + .list-group,
+  .card > .list-group + .card-footer {
+    border-top: 0;
+  }
+  
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    border-radius: 0;
+    background-color: #f0f0f0!important;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    color: #444;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0;
+  }
+  
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+  
+  .card-link:hover {
+    text-decoration: none;
+  }
+  
+  .card-link + .card-link {
+    margin-left: 1.25rem;
+  }
+  
+  .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f0f0f0!important;
+    border-bottom: none !important;
+  }
+  
+  .card-header:first-child {
+    border-radius: 0;
+  }
+  
+  .card-footer {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f0f0f0!important;
+    border-top: none !important;
+  }
+  
+  .card-footer:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  }
+  
+  .card-header-tabs {
+    margin-right: -0.625rem;
+    margin-bottom: -0.75rem;
+    margin-left: -0.625rem;
+    border-bottom: 0;
+  }
+  
+  .card-header-pills {
+    margin-right: -0.625rem;
+    margin-left: -0.625rem;
+  }
+  

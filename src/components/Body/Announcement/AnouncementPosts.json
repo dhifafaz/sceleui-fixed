@@ -1,0 +1,99 @@
+{
+    "Announcements": [{
+        "title" : "Konsultasi PA LYStefanus via Zoom Senin 1.Feb.2021",
+        "path" : "/Konsultasi PA LYStefanus via Zoom Senin 1.Feb.2021",
+        "content" : "Ysh Rekan-rekan mahasiswa/i calon peserta PPL Kelas A dan mahasiswa/i PA dari Ade Azurat,\nUntuk melayani kebutuhan konsultasi pengisian IRS mhs PA dan tanya jawab terkait rencana pelaksanaan PPL Kelas A Sosial Open Source Scrum of Scrum,maka disediakan waktu diskusi tanya jawab terbuka  dan informal pada: \nWaktu:\nSenin,  1 February 2021, jam 16:30 - 17:30\nRabu,   3 February 2021, jam 16:30 - 17:30\nJum'at, 5 February 2021, jam 16:30 - 17:30 \nRuang Zoom: https://zoom.us/j/5036738475    Meeting ID: 503 673 8475 \nBagi rekan2 yang ingin membahas rencana studi secara khusus dan personal, kita bisa membuat break out room terpisah di ruang zoom tersebut nanti. Bagi rekan2 yang butuh konsultasi pada waktu lain, silahkan kirimkan email ke ade@cs.ui.ac.id\nBagi calon peserta PPL kelas A, silahkan terlebih dahulu menyimak beberapa informasi awal yang ada di course page PPL Kelas A berikut: https://scele.cs.ui.ac.id/course/view.php?id=3070 \nDemikian informasi ini disampaikan, semoga bermanfaat. \nsalam,\nAde Azurat",
+        "author" : "Ade Azurat",
+        "date" : "Monday, 1 February 2021, 8:19 AM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/"
+    },{
+        "title" : "Pengisian IRS Mahasiswa Fasilkom" ,
+        "path" : "/Pengisian IRS Mahasiswa Fasilkom" ,
+        "content" : "Dear all mahasiswa,Diberitahukan bahwa pengisian registrasi online (IRS) Fasilkom akan dibuka pada Selasa 2 Februari 2021 pukul 09.00 wib. Mohon untuk dijadikan perhatian.\n\nTerima kasih.\n\n \n—Sekretariat Akademik—" ,
+        "author" : "Inggit Pertiwi" ,
+        "date" : "Sunday, 31 January 2021, 2:20 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    },{
+        "title" : "Enrollment Mahasiswa Kelas PPL (B, C, D) Semester Genap 2020/2021" ,
+        "path" : "/Enrollment Mahasiswa Kelas PPL (B, C, D) Semester Genap 2020/2021" ,
+        "content" : "Dear all mahasiswa yang akan mengambil mata kuliah PPL (kelas B,C,D) Genap 2020/2021,\nUntuk mendapatkan informasi penting terkait persiapan kuliah semester ini, dimohon untuk mulai enroll ke course page dengan link berikut: https://scele.cs.ui.ac.id/course/view.php?id=3071\nSalam,\nTim Dosen PPL (B, C, D)" ,
+        "author" : "Bintang Annisa Bagustari Bintang" ,
+        "date" : "Thursday, 28 January 2021, 7:35 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    },{
+        "title" : "Pendaftaran Kelas Lintas Fakultas dan Lintas Prodi semester Genap 2020/2021" ,
+        "path" : "/Pendaftaran Kelas Lintas Fakultas dan Lintas Prodi semester Genap 2020/2021" ,
+        "content" : "Kepada Mahasiswa/i Fasilkom\n\n\nBagi mahasiswa yang ingin mengambil kelas lintas fakultas atau lintas prodi (termasuk misalnya dari program reguler ke program kelas internasional, dan sebaliknya) dapat mengisi daftar kelas yang akan diambil.\nPerhatian bahwa tidak dijamin bahwa permintaan pembukaan kelas lintas prodi ini akan dibuka, karena sangat tergantung kepada kapasitas kelas di prodi tujuan. Untuk lintas fakultas, kewenangan diterima atau tidaknya ada di pihak fakultas yang dituju dan harap mematuhi aturan yang berlaku di fakultas tujuan. Mahasiswa yang telah diterima harap mengikuti perkuliahan dengan baik.\nPengisian daftar kelas secara langsung mulai Rabu, 27 Jan 2021 - Jum'at, 5 Feb 2021 (maks. pukul 10.00 WIB).\nBerikut ini adalah tautannya:\nhttps://forms.gle/QpMBmbB6qM1t1Faq7 (LinFak)\nhttps://forms.gle/UoSxaHGvWHDSxVGM7 (LinPro)\nDemikian info ini kami sampaikan.\n--Sekreakademik--" ,
+        "author" : "Ridwan Febryanto " ,
+        "date" : "Tuesday, 26 January 2021, 2:49 PM" ,
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/"
+    },{
+        "title" : "Pengisian IRS Mahasiswa Fasilkom" ,
+        "path" : "/Pengisian IRS Mahasiswa Fasilkom" ,
+        "content" : "Dear all mahasiswa,\n\nDiberitahukan bahwa pengisian registrasi online (IRS) Fasilkom akan dibuka pada Selasa 2 Februari 2021 pukul 09.00 wib. Mohon untuk dijadikan perhatian.\n\nTerima kasih.\n\n \n—Sekretariat Akademik—" ,
+        "author" : "Inggit Pertiwi" ,
+        "date" : "Sunday, 31 January 2021, 2:20 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    },{
+        "title" : "Pendaftaran Kelas Lintas Fakultas dan Lintas Prodi semester Genap 2020/2021" ,
+        "path" : "/Pendaftaran Kelas Lintas Fakultas dan Lintas Prodi semester Genap 2020/2021" ,
+        "content" : "Kepada Mahasiswa/i Fasilkom\n\n\nBagi mahasiswa yang ingin mengambil kelas lintas fakultas atau lintas prodi (termasuk misalnya dari program reguler ke program kelas internasional, dan sebaliknya) dapat mengisi daftar kelas yang akan diambil.\nPerhatian bahwa tidak dijamin bahwa permintaan pembukaan kelas lintas prodi ini akan dibuka, karena sangat tergantung kepada kapasitas kelas di prodi tujuan. Untuk lintas fakultas, kewenangan diterima atau tidaknya ada di pihak fakultas yang dituju dan harap mematuhi aturan yang berlaku di fakultas tujuan. Mahasiswa yang telah diterima harap mengikuti perkuliahan dengan baik.\nPengisian daftar kelas secara langsung mulai Rabu, 27 Jan 2021 - Jum'at, 5 Feb 2021 (maks. pukul 10.00 WIB).\nBerikut ini adalah tautannya:\nhttps://forms.gle/QpMBmbB6qM1t1Faq7 (LinFak)\nhttps://forms.gle/UoSxaHGvWHDSxVGM7 (LinPro)\nDemikian info ini kami sampaikan.\n--Sekreakademik--" ,
+        "author" : "Ridwan Febryanto " ,
+        "date" : "Tuesday, 26 January 2021, 2:49 PM" ,
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/"
+    },{
+        "title" : "Pengisian IRS Mahasiswa Fasilkom" ,
+        "path" : "/Pengisian IRS Mahasiswa Fasilkom" ,
+        "content" : "Dear all mahasiswa,\n\nDiberitahukan bahwa pengisian registrasi online (IRS) Fasilkom akan dibuka pada Selasa 2 Februari 2021 pukul 09.00 wib. Mohon untuk dijadikan perhatian.\n\nTerima kasih.\n\n \n—Sekretariat Akademik—" ,
+        "author" : "Inggit Pertiwi" ,
+        "date" : "Sunday, 31 January 2021, 2:20 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    },{
+        "title" : "Pengisian IRS Mahasiswa Fasilkom" ,
+        "path" : "/Pengisian IRS Mahasiswa Fasilkom" ,
+        "content" : "Dear all mahasiswa,\n\nDiberitahukan bahwa pengisian registrasi online (IRS) Fasilkom akan dibuka pada Selasa 2 Februari 2021 pukul 09.00 wib. Mohon untuk dijadikan perhatian.\n\nTerima kasih.\n\n \n—Sekretariat Akademik—" ,
+        "author" : "Inggit Pertiwi" ,
+        "date" : "Sunday, 31 January 2021, 2:20 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    },{
+        "title" : "Pendaftaran Kelas Lintas Fakultas dan Lintas Prodi semester Genap 2020/2021" ,
+        "path" : "/Pendaftaran Kelas Lintas Fakultas dan Lintas Prodi semester Genap 2020/2021" ,
+        "content" : "Kepada Mahasiswa/i Fasilkom\n\n\nBagi mahasiswa yang ingin mengambil kelas lintas fakultas atau lintas prodi (termasuk misalnya dari program reguler ke program kelas internasional, dan sebaliknya) dapat mengisi daftar kelas yang akan diambil.\nPerhatian bahwa tidak dijamin bahwa permintaan pembukaan kelas lintas prodi ini akan dibuka, karena sangat tergantung kepada kapasitas kelas di prodi tujuan. Untuk lintas fakultas, kewenangan diterima atau tidaknya ada di pihak fakultas yang dituju dan harap mematuhi aturan yang berlaku di fakultas tujuan. Mahasiswa yang telah diterima harap mengikuti perkuliahan dengan baik.\nPengisian daftar kelas secara langsung mulai Rabu, 27 Jan 2021 - Jum'at, 5 Feb 2021 (maks. pukul 10.00 WIB).\nBerikut ini adalah tautannya:\nhttps://forms.gle/QpMBmbB6qM1t1Faq7 (LinFak)\nhttps://forms.gle/UoSxaHGvWHDSxVGM7 (LinPro)\nDemikian info ini kami sampaikan.\n--Sekreakademik--" ,
+        "author" : "Ridwan Febryanto " ,
+        "date" : "Tuesday, 26 January 2021, 2:49 PM" ,
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/"
+    },{
+        "title" : "Pengisian IRS Mahasiswa Fasilkom" ,
+        "path" : "/Pengisian IRS Mahasiswa Fasilkom" ,
+        "content" : "Dear all mahasiswa,\n\nDiberitahukan bahwa pengisian registrasi online (IRS) Fasilkom akan dibuka pada Selasa 2 Februari 2021 pukul 09.00 wib. Mohon untuk dijadikan perhatian.\n\nTerima kasih.\n\n \n—Sekretariat Akademik—" ,
+        "author" : "Inggit Pertiwi" ,
+        "date" : "Sunday, 31 January 2021, 2:20 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    },{
+        "title" : "Konsultasi PA LYStefanus via Zoom Senin 1.Feb.2021",
+        "path" : "/Konsultasi PA LYStefanus via Zoom Senin 1.Feb.2021",
+        "content" : "Ysh Rekan-rekan mahasiswa/i calon peserta PPL Kelas A dan mahasiswa/i PA dari Ade Azurat,\nUntuk melayani kebutuhan konsultasi pengisian IRS mhs PA dan tanya jawab terkait rencana pelaksanaan PPL Kelas A Sosial Open Source Scrum of Scrum,maka disediakan waktu diskusi tanya jawab terbuka  dan informal pada: \nWaktu:\nSenin,  1 February 2021, jam 16:30 - 17:30\nRabu,   3 February 2021, jam 16:30 - 17:30\nJum'at, 5 February 2021, jam 16:30 - 17:30 \nRuang Zoom: https://zoom.us/j/5036738475    Meeting ID: 503 673 8475 \nBagi rekan2 yang ingin membahas rencana studi secara khusus dan personal, kita bisa membuat break out room terpisah di ruang zoom tersebut nanti. Bagi rekan2 yang butuh konsultasi pada waktu lain, silahkan kirimkan email ke ade@cs.ui.ac.id\nBagi calon peserta PPL kelas A, silahkan terlebih dahulu menyimak beberapa informasi awal yang ada di course page PPL Kelas A berikut: https://scele.cs.ui.ac.id/course/view.php?id=3070 \nDemikian informasi ini disampaikan, semoga bermanfaat. \nsalam,\nAde Azurat",
+        "author" : "Ade Azurat",
+        "date" : "Monday, 1 February 2021, 8:19 AM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/"
+    },{
+        "title" : "Pengisian IRS Mahasiswa Fasilkom" ,
+        "path" : "/Pengisian IRS Mahasiswa Fasilkom" ,
+        "content" : "Dear all mahasiswa,\n\nDiberitahukan bahwa pengisian registrasi online (IRS) Fasilkom akan dibuka pada Selasa 2 Februari 2021 pukul 09.00 wib. Mohon untuk dijadikan perhatian.\n\nTerima kasih.\n\n \n—Sekretariat Akademik—" ,
+        "author" : "Inggit Pertiwi" ,
+        "date" : "Sunday, 31 January 2021, 2:20 PM",
+        "image" : "sceleui-fixed/src/assets/Images/defaultuserimg.png",
+        "link" : "/" 
+    }]
+}
