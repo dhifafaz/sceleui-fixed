@@ -34,10 +34,12 @@ const ShortenedText = ({text, length = 50}) => {
 //const text =
 //  "Lorem Ipsum is text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
 
-const autoPostProcess = AnnouncementPosts.Announcements.map((announcement, index) => {
+const autoPostProcess = AnnouncementPosts.Announcements.slice(0,10).map((announcement, index) => {
 	return(
-    <Card border="none" style={{ width: '100%' }} className="main-card" key={index}>
-        <Card.Header >
+    <>
+       <a id={index}></a>
+    <Card id="post-display" border="none" style={{ width: '100%' }} className="main-card" key={index}>
+        <Card.Header className="header" >
           <div className="left-picture">
             <a href="/">
               <img className="user-picture" src={DefaultPicture}/>
@@ -74,6 +76,8 @@ const autoPostProcess = AnnouncementPosts.Announcements.map((announcement, index
           </div>
         </Card.Footer>
       </Card>
+    </>
+   
   );
 })
 
@@ -81,9 +85,12 @@ const announcementCard = () => (
     <div id="site-news-forum">
       <a id="1dasjh"></a>
       <h2>Pengumuman Akademis</h2>
-      <a id="sadhjsai"></a>
       {autoPostProcess}
-    </div>
-   
+      <div className="old-content">
+        <a href="/">
+          Old topics ...
+        </a>
+      </div>
+    </div>   
     );
 export default announcementCard;

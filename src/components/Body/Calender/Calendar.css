@@ -3,6 +3,17 @@
     border-color: none!important;
     border-left: none!important;
 }
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  background-color: #f0f0f0!important;
+  border-bottom: 1px solid #555 !important;
+  color : #555 !important;
+  font-family: "Ubuntu";
+  font-size: 15px!important;
+  font-weight: 700 ;
+}
+
 .calendar-date {
     background-color: #f2f2f2!important;
     border: none!important;
@@ -12,8 +23,7 @@
 }
 .card {
   background-color: #f2f2f2!important;
-  border-color: none!important;
-  border-left: none!important;
+  border-radius: 0 !important;
 }
 
 .react-calendar {
